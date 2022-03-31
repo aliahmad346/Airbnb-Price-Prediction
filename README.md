@@ -1,4 +1,4 @@
-# Airbnb-Price-Prediction
+# Airbnb Price Prediction
 
 The repository covers a project which aims to predict the price of a novel Airbnb listing given the open-source listings data available online.
 
