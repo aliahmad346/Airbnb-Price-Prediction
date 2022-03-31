@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html  http-equiv="refresh">
+
+<head>
+    <meta charset="utf-8">
+    <meta/>
+    <meta name="viewport" content="user-scalable=no, width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+    <title>MBL - Login</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style-login.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
+
+    <!--<div id="alertWraperDiv" class="alertWraperDiv">
+        <div id="disabledDiv" class="disabledDiv"></div>
+        <div id="alertBoxDiv" class="alertBoxDiv">
+            <img src="images/loginDesclaimer.png" style="margin: 0px auto;display: inherit;max-width: 100%;"
+                 onclick="hideAlert();"><br>
+        </div>
+    </div> -->
+    <style>
+
+
+        label {
+            display: inline-block;
+            width: 55px;
+            height: 55px;
+            margin: 6px 14px 6px;
+        }
+
+        label > input { /* HIDE RADIO */
+            visibility: hidden; /* Makes input not-clickable */
+            position: absolute; /* Remove input from document flow */
+        }
+
+        label > input + img { /* IMAGE STYLES */
+            cursor: pointer;
+            border: 2px solid #ebebeb;
+            margin: 0px 5px 0px 0px;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 0 black;
+            width: 100%;
+        }
+
+        label > input:checked + img { /* (RADIO CHECKED) IMAGE STYLES */
+            border: 2px solid #dd3cf2;
+
+        }
+
+        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            /* IE10+ CSS */
+            label > input + img { /* IMAGE STYLES */
+                pointer-events: none;
+            }
+
+            label > input:checked + img { /* (RADIO CHECKED) IMAGE STYLES */
+                pointer-events: none;
+            }
+        }
+
+        .bs-example {
+            margin: 200px 150px 0;
+        }
+
+        .popover-title .close {
+            position: relative;
+            bottom: 3px;
+        }
+
+    </style>
+</head>
+
+
+<body >
+<div class="new-loginBox clearfix">
+
+    <div class="new-login-header clearfix">
+        <a href="login" class="logo"><img width="125" height="125" src="images/new-login-logo.png" alt=""/></a>
+        <h1>
+            This feature is temporarily unavailable due to system maintenance. Kindly download/use Meezan Mobile App
+        </h1>
+        <br>
+        <a href="https://play.google.com/store/apps/details?id=invo8.meezan.mb&hl=en&gl=US" class="logo"><img  width="800"  src="images/meezanMobileApplication.jpg" alt=""/></a>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/login/login.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/encryptionUtils/AesUtil.js"></script>
+    <script type="text/javascript" src="js/encryptionUtils/crypto.js"></script>
+    <script type="text/javascript" src="js/encryptionUtils/pbkdf2.js"></script>
+    <script>
+
+
+
+
+
+
+    </script>
+</div>
+</body>
+</html>
